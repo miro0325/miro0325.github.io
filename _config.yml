@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "miro0325.github.io"
 
 github:
   username: miro0325 # change to your github username
@@ -70,10 +70,10 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://chirpy-img.netlify.app"
+img_cdn: "https://i3.ruliweb.com/cmt/22/08/23/182c9e59e02483667.jpg"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://github.com/miro0325/miro0325.github.io/blob/main/assets/img/sigma.jpg"
+avatar: "/assets/img/sigma.png"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
