@@ -25,7 +25,7 @@ mermaid: true
 
 <ul>
     <li>Google Sheet를 받아와 대사,캐릭터 조작,연출 등 데이터들을 받아오고,
-     파싱해 순서대로 실행하도록 구현하였습니다.</li>
+     파싱해 다이얼로그를 실행하도록 구현하였습니다.</li>
 </ul>
 
 [GitHub Link](https://github.com/miro0325/VisualNovel) 

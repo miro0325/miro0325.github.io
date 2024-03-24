@@ -27,7 +27,8 @@ mermaid: true
 판매해 기한 내 할당량을 채워 나가는 게임입니다.
 
 **맡은 요소**
-Shader, 게임 매니져,
+
+Shader, 게임 매니저,
 
 **[Play Video]**
 {% include embed/youtube.html id='GCcx4KT_tlc' %}
