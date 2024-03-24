@@ -1,5 +1,5 @@
 ---
-title: Unity - Astral Party
+title: Unity - VisualNovel
 date: YYYY-MM-DD HH:MM:SS +09:00
 categories: [PORTPOLIO]
 tags:
@@ -13,14 +13,10 @@ math: true
 mermaid: true
 ---
 
-
 개발 환경 : Unity
 
 다양한 게임들을 해보면서, 비주얼 노벨식 연출을 많이 봐왔고,
 그로 인해 한번 만들어보고 싶어 구현해보게 되었습니다.
-
-
-
 
 **[Play Video]**
 <!-- {% include embed/youtube.html id='-LVAOtuRbEQ' %} -->
