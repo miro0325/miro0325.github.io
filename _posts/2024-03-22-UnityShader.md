@@ -22,9 +22,13 @@ Unity에서 여러 그래픽 스타일이나, 효과등을 만들어 보고 싶�
 Shader 코드의 기본적인 구조를 이해하고
 CG문법에 대해 공부하였습니다.
 
-간단한 Cartoon Shader를 제작하였습니다.
 
-**개발**
+
+<font size=+1>개발</font>
+
+**Cartoon Shader**
+
+
 
 ![Image Alt 텍스트]({{site.url}}/assets/img/CartoonShader.png )
 
@@ -45,7 +49,7 @@ Outline
 }
 ```
 Pass를 2개를 그려 하나에서
-Vertex의 Normal을 받아와 Object의 크기보다 크게 확장시켜 아웃라인을 표현
+Vertex의 Normal을 받아와 Object의 Normal 값 방향으로 확장시켜 아웃라인을 표현
 
 
 Toon
@@ -59,6 +63,8 @@ float Toon(float3 normal, float3 lightDir)
 ```
 빛의 방향을 받아오고 빛의 방향과 Normal값을 내적해 그림자를 구현하고,
 floor로 그림자에 층을 형성시켜 카툰풍을 표현함
+
+
 
 [GitHub Link](https://github.com/miro0325/) 
 
