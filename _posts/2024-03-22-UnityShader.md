@@ -26,7 +26,7 @@ CG문법에 대해 공부하였습니다.
 
 **개발**
 
-- ![Image Alt 텍스트]({{site.url}}/assets/img/CartoonShader.png )
+![Image Alt 텍스트]({{site.url}}/assets/img/CartoonShader.png )
 
 Outline
 ```cg

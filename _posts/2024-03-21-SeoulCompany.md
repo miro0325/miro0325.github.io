@@ -1,5 +1,5 @@
 ---
-title: Unity - Seoul Company
+title: Unity - Digitech Company
 date: YYYY-MM-DD HH:MM:SS +09:00
 categories: [PORTPOLIO]
 tags:
@@ -23,7 +23,7 @@ mermaid: true
 **게임 개요**
 
 리썰 컴퍼니를 레퍼런스로,
-플레이어들이 폐허가 된 서울 도심들을 탐험하며, 버려진 물건들을 수집하여
+플레이어들이 폐허가 된 학교를 탐험하며, 버려진 물건들을 수집하여
 판매해 기한 내 할당량을 채워 나가는 게임입니다.
 
 **맡은 요소**
