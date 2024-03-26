@@ -33,7 +33,7 @@ CG문법에 대해 공부하였습니다.
 ![Image Alt 텍스트]({{site.url}}/assets/img/CartoonShader.png )
 
 **Outline**
-```cg
+```c#
  ST_VertexOutput _VertexFuc(ST_VertexInput stInput) 
  {
     ST_VertexOutput stOutput;
@@ -53,7 +53,7 @@ Vertex의 Normal을 받아와 Object의 Normal 값 방향으로 확장시켜 아
 
 
 **Cell Shading**
-```mermaid
+```c#
 float Toon(float3 normal, float3 lightDir) 
 {
     float NdotL =  max(0.0,dot(normalize(normal),normalize(lightDir))); //빛의 방향을 내적을 통해 그림자를 구현
