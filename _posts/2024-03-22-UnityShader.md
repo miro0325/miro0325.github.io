@@ -24,7 +24,7 @@ CG문법에 대해 공부하였습니다.
 
 
 
-<font size=+1>개발</font>
+<p style="font-size:25px">개발</p>
 
 **Cartoon Shader**
 
@@ -32,7 +32,7 @@ CG문법에 대해 공부하였습니다.
 
 ![Image Alt 텍스트]({{site.url}}/assets/img/CartoonShader.png )
 
-Outline
+**Outline**
 ```cg
  ST_VertexOutput _VertexFuc(ST_VertexInput stInput) 
  {
@@ -52,8 +52,8 @@ Pass를 2개를 그려 하나에서
 Vertex의 Normal을 받아와 Object의 Normal 값 방향으로 확장시켜 아웃라인을 표현
 
 
-Toon
-```cg
+**Cell Shading**
+```mermaid
 float Toon(float3 normal, float3 lightDir) 
 {
     float NdotL =  max(0.0,dot(normalize(normal),normalize(lightDir))); //빛의 방향을 내적을 통해 그림자를 구현
@@ -63,7 +63,6 @@ float Toon(float3 normal, float3 lightDir)
 ```
 빛의 방향을 받아오고 빛의 방향과 Normal값을 내적해 그림자를 구현하고,
 floor로 그림자에 층을 형성시켜 카툰풍을 표현함
-
 
 
 [GitHub Link](https://github.com/miro0325/) 
