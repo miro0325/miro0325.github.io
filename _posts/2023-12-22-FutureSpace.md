@@ -6,13 +6,14 @@ tags:
   [
     Unity,
     C#,
+    기능 대회 연습작
   ]
 comments: false
 math: true
 mermaid: true
 ---
 
-장르 : 2D 종 스크롤 슈팅게임
+장르 : 종 스크롤 슈팅게임
 
 플랫폼 : PC
 

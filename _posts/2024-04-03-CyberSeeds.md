@@ -1,5 +1,5 @@
 ---
-title: Unity - Astral Party
+title: Unity - CyberSeeds
 date: YYYY-MM-DD HH:MM:SS +09:00
 categories: [PORTPOLIO]
 tags:
@@ -7,12 +7,13 @@ tags:
     Unity,
     C#,
     Team Project,
-    개발중
+    GameJam
   ]
 comments: false
 math: true
 mermaid: true
 ---
+
 
 장르 : 멀티, 카드, 배틀, 보드게임
 플랫폼 : PC
@@ -35,6 +36,9 @@ Astral Party를 모작한 게임으로,
     <li>플레이어 이동 경로를 표시하기 위해 DFS 알고리즘을 사용하여 플레이어가 이동가능한 노드들을 탐색해 구현했습니다.</li>
 </ul>
 
-[GitHub Link](https://github.com/miro0325/Astral_Mojak) 
+
+[GitHub Link](https://github.com/miro0325/TreeGrowth) 
+
+
 
 

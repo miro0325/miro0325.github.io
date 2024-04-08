@@ -6,14 +6,16 @@ tags:
   [
     Unity,
     C#,
-    Team Project
+    Team Project,
+    졸업작품,
+    개발중
   ]
 comments: false
 math: true
 mermaid: true
 ---
 
-장르 : 3D, 4인 협동, 멀티
+장르 : 4인 협동  멀티
 플랫폼 : PC
 
 역할 : 프로그래밍
