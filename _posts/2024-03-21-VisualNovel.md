@@ -24,8 +24,11 @@ mermaid: true
 **개발**
 
 <ul>
-    <li>Google Sheet를 받아와 대사,캐릭터 조작,연출 등 데이터들을 받아오고,
-     파싱해 다이얼로그를 실행하도록 구현하였습니다.</li>
+    <li>UnityWebRequest를 사용해Google Sheet를 받아와 스토리 진행에 필요한 대사, 효과, 움직임, 감정 표현, 등 데이터를 받아와 파싱하여 그대로 실행하도록 구현하였습니다.
+    </li>
+    <li>char 배열로 문장을 받아, Coroutine을 사용해 글자를 차례대로 출력해
+    타이핑 효과를 구현했습니다.
+    </li>
 </ul>
 
 [GitHub Link](https://github.com/miro0325/VisualNovel) 

@@ -35,11 +35,14 @@ mermaid: true
 **개발**
 
 <ul>
-    <li>버프를 표시 하기 위해 Outline Shader를 제작하여, 버프에 걸린 엔티티에게 Outline Color를 변경하여, 표시했습니다.</li>
-    <li>Observer Pattern을 사용하여, 이벤트를 받아오고 
-		날짜를 감지하여 하루가 지나면 초기화 되는 일일 퀘스트를 구현하였습니다.
-	</li>
-    <li>베지어 곡선을 사용하여 곡선 탄환을 구현하였습니다.</li>
+    <li>Shader(CG)를 사용하여 Outline Shader를 제작하고,
+     디버프가 걸린 몬스터 Outline Color에 차이를 줘 디버프 유무를 확인할 수 있게 구현하였습니다.
+    </li>
+    <li>Observer Pattern을 사용하여, 이벤트들을 받아 
+    퀘스트를 구현했으며 날짜를 PlayerPrefs와 JsonUtility를 이용해 저장하고, 현재시간을 받아와 날짜가 바뀌면, 초기화 되도록 구현하였습니다. 
+	  </li>
+    <li>베지어 곡선을 사용하여 부드러운 곡선 탄환을 구현하였습니다.
+    </li>
 </ul>
 
 [GitHub Link](https://github.com/miro0325/Temple_Of_Sita) 

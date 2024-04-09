@@ -22,47 +22,22 @@ Unity에서 여러 그래픽 스타일이나, 효과등을 만들어 보고 싶�
 Shader 코드의 기본적인 구조를 이해하고
 CG문법에 대해 공부하였습니다.
 
-
-
-<p style="font-size:25px">개발</p>
-
-**Cartoon Shader**
-
-
-
 ![Image Alt 텍스트]({{site.url}}/assets/img/CartoonShader.png )
 
-**Outline**
-```c
- ST_VertexOutput _VertexFuc(ST_VertexInput stInput) 
- {
-    ST_VertexOutput stOutput;
-    stInput.color = _OutlineColor;
+<!-- <p style="font-size:25px">개발</p> -->
+**개발**
 
-    float3 fNormalized_Normal = normalize(stInput.normal); //Vertex Normal값 받아오기
-    float3 fOutline_Position = stInput.vertex + fNormalized_Normal * (_Outline_Bold * 0.1f); //Normal값 방향으로 Vertex 확장
-
-    stOutput.vertex = UnityObjectToClipPos(fOutline_Position);
-    stOutput.color = stInput.color;
-    return stOutput;
-                    
-}
-```
-Pass를 2개를 그려 하나에서
-Vertex의 Normal을 받아와 Object의 Normal 값 방향으로 확장시켜 아웃라인을 표현
+<ul>
+    <li>GrabPass를 사용하여 화면에 잡힌 내용을 가져오고, Normal Map을 더해줘 굴절 효과를 구현했습니다.</li>
+    <li>Rim Lighting으로 가장자리에 그라데이션을 칠하고 가운데일수록 Alpha값을 낮게 주어 홀로그램 효과를 구현하였습니다.</li>
+    <li>삼각 함수를 사용해, Vertex 위치를 조절하여 파도 물결을 구현하고, Texture Scrolling 으로 물 텍스쳐를 계속 움직여, 물이 흐르는 듯한 효과를 구현했습니다. </li>
+</ul>
 
 
-**Cell Shading**
-```c
-float Toon(float3 normal, float3 lightDir) 
-{
-    float NdotL =  max(0.0,dot(normalize(normal),normalize(lightDir))); //빛의 방향을 내적을 통해 그림자를 구현
 
-    return floor(NdotL/0.3); //floor로 값을 층으로 나눠 단계별 그림자 형성
-}
-```
-빛의 방향을 받아오고 빛의 방향과 Normal값을 내적해 그림자를 구현하고,
-floor로 그림자에 층을 형성시켜 카툰풍을 표현함
+
+
+
 
 
 [GitHub Link](https://github.com/miro0325/) 
