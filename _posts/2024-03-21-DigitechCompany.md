@@ -33,16 +33,20 @@ mermaid: true
 
 연출, 메인 시스템
 
-Pixel Rendering + Cartoon Rendering
+<p>Pixel Rendering + Cartoon Rendering
+</p>
 
-<p>
+
 ![Image Alt 텍스트]({{site.url}}/assets/img/digitech.png )
-</p>
-명령어를 칠수 있는 Terminal 기능
 
-<p>
+
+
+<p>명령어를 칠수 있는 Terminal 기능</p>
+
+
+
 ![Image Alt 텍스트]({{site.url}}/assets/img/terminal.png )
-</p>
+
 **개발**
 
 <ul>

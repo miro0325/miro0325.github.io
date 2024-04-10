@@ -15,6 +15,7 @@ mermaid: true
 ---
 
 장르 : 멀티, 카드, 배틀, 보드게임
+
 플랫폼 : PC
 
 역할 : 프로그래밍
@@ -28,7 +29,10 @@ Astral Party를 모작한 게임으로,
 
 **인게임**
 
+
+
 ![Image Alt 텍스트]({{site.url}}/assets/img/astral.png )
+
 
 **개발**
 
