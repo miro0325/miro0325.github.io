@@ -34,9 +34,11 @@ mermaid: true
 Shader, 게임 매니저,
 
 Pixel Rendering + Cartoon Rendering
+
 ![Image Alt 텍스트]({{site.url}}/assets/img/digitech.png )
 
 명령어를 칠수 있는 Terminal 기능
+
 ![Image Alt 텍스트]({{site.url}}/assets/img/terminal.png )
 
 **개발**

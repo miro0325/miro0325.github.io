@@ -27,6 +27,7 @@ Astral Party를 모작한 게임으로,
 돈을 잃거나,얻어 점수를 획득하고 목표를 달성한 플레이어가 승리하는 게임입니다. 
 
 **인게임**
+
 ![Image Alt 텍스트]({{site.url}}/assets/img/astral.png )
 
 **개발**
