@@ -30,7 +30,7 @@ mermaid: true
 레벨 업, 플레이어 스킬, 적 패턴, 일일 퀘스트, 게임 오버  
 
 **[Play Video]**
-{% include embed/youtube.html id='2ym6mHKbVWA' %}
+{% include embed/youtube.html id='edrxeZIffk4' %}
 
 **개발**
 

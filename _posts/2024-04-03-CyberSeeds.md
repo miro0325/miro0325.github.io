@@ -29,7 +29,7 @@ mermaid: true
 게임잼 기간 내 제작하기 위해 팀 내 역할을 분할하고, 코드를 간결하게 쓰기 위해 노력했습니다.
 
 **[Play Video]**
-{% include embed/youtube.html id='ytddbNuHdEY' %}
+{% include embed/youtube.html id='gKwReIauHaU' %}
 
 **개발**
 

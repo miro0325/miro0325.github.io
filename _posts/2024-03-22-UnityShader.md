@@ -5,7 +5,7 @@ categories: [PORTPOLIO]
 tags:
   [
     Unity,
-    C#,
+    CG,
     Study
   ]
 comments: false
@@ -22,7 +22,9 @@ Unity에서 여러 그래픽 스타일이나, 효과등을 만들어 보고 싶�
 Shader 코드의 기본적인 구조를 이해하고
 CG문법에 대해 공부하였습니다.
 
-![Image Alt 텍스트]({{site.url}}/assets/img/CartoonShader.png )
+**[Play Video]**
+{% include embed/youtube.html id='_emUx8IzS-s' %}
+<!-- /![Image Alt 텍스트]({{site.url}}/assets/img/CartoonShader.png ) -->
 
 <!-- <p style="font-size:25px">개발</p> -->
 **개발**

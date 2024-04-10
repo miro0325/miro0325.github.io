@@ -19,7 +19,7 @@ mermaid: true
 그로 인해 한번 만들어보고 싶어 구현해보게 되었습니다.
 
 **[Play Video]**
-<!-- {% include embed/youtube.html id='-LVAOtuRbEQ' %} -->
+{% include embed/youtube.html id='ANYZy58OLfg' %}
 
 **개발**
 
