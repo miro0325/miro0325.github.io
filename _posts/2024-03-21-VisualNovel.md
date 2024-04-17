@@ -181,6 +181,7 @@ public class DialogueText : MonoBehaviour
         int currentChar = 0;
         charTime = timeForChar;
         int charLength = chars.Length;
+        StringBuilder stringBuilder = new StringBuilder(); 
         isTypingEnd = false;
         text.text = "";
         while(currentChar < charLength)
@@ -189,9 +190,10 @@ public class DialogueText : MonoBehaviour
             {
                 yield return null;
                 timer-=Time.deltaTime;
-            } else
+            }else
             {
-                text.text += chars[currentChar].ToString();
+                stringBuilder.Append(chars[currentChar].ToString());
+                text.text = stringBuilder.ToString();
                 currentChar++;
                 timer = charTime;
             }
@@ -203,7 +205,6 @@ public class DialogueText : MonoBehaviour
             coroutine = null;   
             yield break;
         }
-
     }
 
     public void EndTyping()
