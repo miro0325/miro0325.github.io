@@ -39,10 +39,15 @@ mermaid: true
 
 ![Image Alt 텍스트]({{site.url}}/assets/img/terminal.png )  
 
+**스타일라이즈 쉐이더** 
 
+![Image Alt 텍스트]({{site.url}}/assets/img/pbrshader.png )
 
 ## 기능 구현
 
+* **스타일라이즈 쉐이더**
+  *  Shader(hlsl)을 사용하여, PBR 기반의 Stylized Lit Shader를 제작하여
+  스타일라이즈 그래픽을 구현하였습니다.
 * **픽셀화**
   *  Shader(hlsl)을 사용하여, Pixelate Shader를 제작하고, Postprocessing의 Volume Component에 추가해 Global Volume에서 쉽게 Shader를 조절할 수 있게 구현하였습니다.
 * **명령어** 
