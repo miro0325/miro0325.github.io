@@ -30,7 +30,7 @@ mermaid: true
 
 ## 인게임 요소
 
-
+ 
 **Pixel Rendering + Cartoon Rendering**  
 
 ![Image Alt 텍스트]({{site.url}}/assets/img/digitech.png )  
