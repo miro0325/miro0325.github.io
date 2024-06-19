@@ -38,7 +38,7 @@ mermaid: true
 * **눈 효과**
   * Shader Graph를 사용하여, 눈 텍스쳐에 Dissolve 효과를 주고 스크립트로 Dissolve값을 조정하여 부드럽게 눈이 쌓이는 효과를 구현하였습니다. 
 
-<span style="font-size: 30px;">[GitHub Link](https://github.com/miro0325/TreeGrowth)</span>
+<span style="font-size: 30px;">[GitHub Link](https://github.com/miro0325/TreeGrowthGame)</span>
 
 
 

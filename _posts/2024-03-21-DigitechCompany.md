@@ -39,9 +39,9 @@ mermaid: true
 
 ![Image Alt 텍스트]({{site.url}}/assets/img/terminal.png )  
 
-**스타일라이즈 쉐이더** 
+**스타일라이즈 쉐이더**  
 
-![Image Alt 텍스트]({{site.url}}/assets/img/pbrshader.png )
+![Image Alt 텍스트]({{site.url}}/assets/img/pbrshader.png )  
 
 ## 기능 구현
 
